@@ -19,7 +19,7 @@ int main() {
    printf("%d ", minimum(no1, no2));
    printf("%d ", maximum(no1, no2));
    printf("%d ", multiply(no1, no2));
-   return 0;
+   
 }
 int minimum(int a, int b)
 {
@@ -46,4 +46,5 @@ int minimum(int a, int b)
          return e*f;
       }
    }
+   return 0;
 }
